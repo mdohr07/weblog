@@ -18,6 +18,12 @@ body {
     font-size: 1rem;
 }
 
+.maincontent {
+	border: 2px solid;
+	margin: 2rem 0rem;
+	padding: 1rem;
+}
+
 hr {
     margin-top: 5%;
 }
