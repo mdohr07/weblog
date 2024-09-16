@@ -61,7 +61,7 @@ pre code {
 
 /* Titles */
 h1.webite-title a {
-	display: inline-block
+	display: inline-block;
 	background-color: #CCCC99;
 	color: #333366;
 	padding: 5px 10px;
