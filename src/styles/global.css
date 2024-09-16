@@ -19,9 +19,10 @@ body {
 }
 
 .maincontent {
-	border: 2px solid;
-	margin: 2rem 0rem;
-	padding: 1rem;
+	border: 1px solid;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 30px;
 }
 
 hr {
@@ -60,9 +61,10 @@ pre code {
 
 /* Titles */
 h1.webite-title a {
+	display: inline-block
 	background-color: #FFCC99;
 	color: #333366;
-	padding: 0.2rem 0.8rem;
+	padding: 5px 10px;
 	font-size: 1.05rem;
 	text-decoration: none;
 }
@@ -94,30 +96,8 @@ header {
 }
 
 /* Navigation */
-nav {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-}
-
-.nav-links ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0 auto;
-}
-
-.nav-links ul li {
-    list-style-type: none;
-    display: inline-block;
-}
-
-.nav-links li::after {
-    content: '/';
-    margin-left: 7px;
-    color: #FFCC99;
-}
-
-.nav-links li:last-child::after {
-    content: none; 
+nav a {
+	margin-right: 8px;
 }
 
 /* Footer */
