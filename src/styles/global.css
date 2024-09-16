@@ -95,7 +95,8 @@ header {
 
 /* Navigation */
 nav {
-	margin: 1rem 0rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 .nav-links ul {
