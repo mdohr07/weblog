@@ -53,6 +53,11 @@ pre code {
     background: transparent;
 }
 
+/* Titles */
+h1.title {
+	font-size: 1rem;
+}
+
 /* Links */
 a {
     color: #FFCC99;
