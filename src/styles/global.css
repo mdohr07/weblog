@@ -11,7 +11,7 @@ html {
 body {
     height: 100%;
     background-color: #333366;
-    color: #CCCCCC;
+    color: #FFCC99;
     max-width: 800px;
     margin: 0 auto;
     font-family:  monospace;
@@ -45,7 +45,6 @@ ul li {
 blockquote {
     border-left: 5px solid #CCCCCC;
     padding: 5px 5px 5px 20px;
-    background-color: #666699;
 }
 
 code {
@@ -60,7 +59,11 @@ pre code {
 }
 
 /* Titles */
-h1.webite-title {
+h1.webite-title a {
+	background-color: #FFCC99;
+	color: #333366;
+	margin: 2rem 0rem;
+	padding: 10px;
 	font-size: 1rem;
 	font-weight: bold;
 }
