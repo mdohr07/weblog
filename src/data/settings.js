@@ -1,9 +1,9 @@
 export default {
-  title: `Astro Minimal Starter`,
+  title: `mdohr`,
   description: `This is an example blog made with Astro.`,
-  url: `https://astro-minimal-starter.netlify.app`, // No trailing slash!
+  url: `https://mdohr.space`, // No trailing slash!
   // JSON LD
-  name: `Example`,
+  name: `mdohr07`,
   // Facebook URL
   facebookURL: `https://facebook.com`,
   // Twitter URL
