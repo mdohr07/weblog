@@ -59,7 +59,7 @@ pre code {
 }
 
 /* Titles */
-.webite-title a {
+h1.webite-title a {
 	background-color: #FFCC99;
 	color: #333366;
 	margin: 2rem 0rem;
