@@ -65,7 +65,7 @@ h1.webite-title a {
 	margin: 2rem 0rem;
 	padding: 10px;
 	font-size: 1rem;
-	font-weight: bold;
+	text-decoration: none;
 }
 
 h1.title {
