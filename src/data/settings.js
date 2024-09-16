@@ -4,10 +4,8 @@ export default {
   url: `https://mdohr.space`, // No trailing slash!
   // JSON LD
   name: `mdohr07`,
-  // Facebook URL
-  facebookURL: `https://facebook.com`,
-  // Twitter URL
-  twitterURL: `https://twitter.com/jaydanurwin`,
-  // Instagram URL
-  instagramURL: `https://instagram.com/jaydanurwin`,
+  // Mastodon URL
+  mastodonURL: `https://indieweb.social/@mdohr07,
+  // GitHub URL
+  githubURL: `https://github.com/mdohr07,
 };
