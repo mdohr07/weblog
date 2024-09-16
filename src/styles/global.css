@@ -15,7 +15,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     font-family:  monospace;
-    font-size: 1rem;
+    font-size: 1.05rem;
 }
 
 .maincontent {
@@ -51,7 +51,7 @@ code {
     background-color: #000000;
     padding: 0 2px;
     border-radius: 3px;
-    font-size: 14px;
+    font-size: 1.05rem;
 }
 
 pre code {
@@ -62,9 +62,8 @@ pre code {
 h1.webite-title a {
 	background-color: #FFCC99;
 	color: #333366;
-	margin: 2rem 0rem;
-	padding: 10px;
-	font-size: 1rem;
+	padding: 0.2rem 0.8rem;
+	font-size: 1.05rem;
 	text-decoration: none;
 }
 
@@ -95,6 +94,9 @@ header {
 }
 
 /* Navigation */
+nav {
+	margin: 1rem 0rem;
+}
 
 .nav-links ul {
     list-style-type: none;
