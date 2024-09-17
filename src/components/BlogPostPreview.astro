@@ -11,7 +11,6 @@ const { post } = Astro.props;
     {post.image && <img width="720" height="420" class="post-main__img" loading="lazy" src={post.image} alt={post.alt} />}
     <h1 class="title">{post.title}</h1>
     <time class="publish-date">{post.publishDate}</time>
-    <p>{post.description}</p>
     </a>
 </article>
 
