@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Base.astro";
 import Container from "../components/Container.astro";
+import BlogPostPreview from '../../components/BlogPostPreview.astro';
 
 const seo = {
   title: "mdohr",
@@ -95,7 +96,30 @@ Meanwhile, feel free to reach out to me:
 </div>
 
 <hr> 
-<h2 class="mb-3 text-lg font-bold">Recent blog posts</h2> <ul class="grid list-none gap-2 p-0">
-</p>
+<h2>Recent blog posts</h2>
+
+    <article class="blog-page-content__article">
+      <section class="postlist">
+        {page.data.map((post) => <BlogPostPreview post={post} />)}
+      </section>
+    </article>
+	
   </Container>
 </Layout>
+
+<style>
+ /* Posts list */
+  .postlist {
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    list-style: none;
+  }
+    
+  @media screen and (max-width: 769px) {
+    .postlist {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
