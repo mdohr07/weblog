@@ -1,114 +1,72 @@
 ---
 import Layout from "../layouts/Base.astro";
 import Container from "../components/Container.astro";
-import BlogPostPreview from '../components/BlogPostPreview.astro';
+import { format } from "date-fns";
+
+// Blog Posts importieren
+const allPosts = await Astro.glob('../pages/blog/*.md');
+
+// Sortieren nach publishDate und nur die neuesten fünf Einträge
+const sortedPosts = allPosts
+  .sort((a, b) => new Date(b.frontmatter.publishDate) - new Date(a.frontmatter.publishDate))
+  .slice(0, 5);
 
 const seo = {
   title: "mdohr",
-  description: "This is a starter repo for an blog built with Astro including open graph tags, canonical urls, RSS, sitemap support."
-  }
+  description: "This is a starter repo for a blog built with Astro including open graph tags, canonical URLs, RSS, and sitemap support."
+};
 ---
 
-<Layout
-  seo={seo}
->
+<Layout seo={seo}>
   <Container>
 
-	<b>Under re-construction...</b><br>
-	Because I let my website fall into the evil claws of Gtranslate(.io) I have to start over. 
+    <b>Under re-construction...</b><br>
+    Because I let my website fall into the evil claws of Gtranslate(.io) I have to start over.
 
     <p>
-Meanwhile, feel free to reach out to me:
+    Meanwhile, feel free to reach out to me:
 
-<!-- h-card -->
+    <!-- h-card -->
     <div id="hcard-mdohr07" class="vcard">
 
-<!--
-            <img
-                class="u-photo"
-                src="https://mdohr.space/mblip-full.png"
-                alt="mdohr07"
-                width="200"
-            /> -->
- 
+    <!-- Social Links -->
+    <p>
+        URL: <a class="u-url u-uid" rel="me" href="https://mdohr.space">https://mdohr.space</a><br />
+        Email: <a class="email" href="mailto:mdohr07@gmail.com">mdohr07(at)gmail.com</a>
+    </p>
+    <p>
+        <img src="/assets/icons/mastodon.png" alt="mastodon pixel icon" class="icons" />
+        <a href="https://indieweb.social/@mdohr07" target="_blank" rel="me" class="u-url">Mastodon</a><br />
+        <img src="/assets/icons/github.png" alt="github pixel icon" class="icons" />
+        <a href="https://github.com/mdohr07" target="_blank" rel="me" class="u-url">GitHub</a><br />
+        <img src="/assets/icons/artstation.png" alt="artstation pixel icon" class="icons" />
+        <a href="https://www.artstation.com/mdohr07" target="_blank" rel="me" class="u-url">Artstation</a><br />
+        <img src="/assets/icons/sketchfab.png" alt="sketchfab pixel icon" class="icons" />
+        <a href="https://sketchfab.com/mdohr07" target="_blank" rel="me" class="u-url">Sketchfab</a>
+    </p>
 
-            <p>
-                URL: <a class="u-url u-uid" rel="me" href="https://mdohr.space"
-                    >https://mdohr.space</a
-                ><br />
-                Email: <a class="email" href="mailto:mdohr07@gmail.com"
-                    >mdohr07(at)gmail.com</a
-                >
-            </p>
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+    </div>
 
-            <p>
-                <img
-                    src="/assets/icons/mastodon.png"
-                    alt="mastodon pixel icon"
-                    class="icons"
-                />
-                <a
-                    href="https://indieweb.social/@mdohr07"
-                    target="_blank"
-                    rel="me"
-                    class="u-url">Mastodon</a
-                ><br />
-                <img
-                    src="/assets/icons/github.png"
-                    alt="github pixel icon"
-                    class="icons"
-                />
-                <a
-                    href="https://github.com/mdohr07"
-                    target="_blank"
-                    rel="me"
-                    class="u-url">GitHub</a
-                ><br />
-                <img
-                    src="/assets/icons/artstation.png"
-                    alt="artstation pixel icon"
-                    class="icons"
-                />
-                <a
-                    href="https://www.artstation.com/mdohr07"
-                    target="_blank"
-                    rel="me"
-                    class="u-url">Artstation</a
-                ><br />
-                <img
-                    src="/assets/icons/sketchfab.png"
-                    alt="sketchfab pixel icon"
-                    class="icons"
-                />
-                <a
-                    href="https://sketchfab.com/mdohr07"
-                    target="_blank"
-                    rel="me"
-                    class="u-url">Sketchfab</a
-                >
-            </p>
+    <hr>
+    <h2>Recent blog posts</h2>
 
+    <ul class="postlist">
+      {sortedPosts.map(post => (
+        <li>
+          <a href={post.url}>
+            <h3>{post.frontmatter.title}</h3>
+          </a>
+          <p>{format(new Date(post.frontmatter.publishDate), 'MMMM dd, yyyy')}</p>
+        </li>
+      ))}
+    </ul>
 
-            <link
-                rel="authorization_endpoint"
-                href="https://indieauth.com/auth"
-            />
-</div>
-
-<hr> 
-<h2>Recent blog posts</h2>
-
-    <article class="blog-page-content__article">
-      <section class="postlist">
-        {page.data.map((post) => <BlogPostPreview post={post} />)}
-      </section>
-    </article>
-	
   </Container>
 </Layout>
 
 <style>
- /* Posts list */
+  /* Posts list */
   .postlist {
     padding: 1rem 0;
     display: grid;
@@ -116,7 +74,7 @@ Meanwhile, feel free to reach out to me:
     gap: 2rem;
     list-style: none;
   }
-    
+
   @media screen and (max-width: 769px) {
     .postlist {
       grid-template-columns: 1fr;
