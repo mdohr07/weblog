@@ -4,10 +4,4 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: "https://mdohr.space",
   integrations: [sitemap()],
-  build: {
-    rollupOptions: {
-      external: ['date-fns'],
-    },
-  },
 });
-

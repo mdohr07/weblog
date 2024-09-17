@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Base.astro";
 import Container from "../components/Container.astro";
-import { format } from "date-fns";
+import { format } from "date-fns"; // Stelle sicher, dass dieser Import korrekt ist
 
 // Blog Posts importieren
 const allPosts = await Astro.glob('../pages/blog/*.md');
