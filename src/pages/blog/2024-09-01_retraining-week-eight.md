@@ -7,7 +7,7 @@ author: "mdohr07"
 image: "/assets/blog/2024-09/nani.jpeg"
 alt: drawn mummy says NANI?!
 ---
-music: "none"
+music: "none"<br>
 mood: Anxious
 
 That week was a bit strange. It feels like it went rather slow and sluggish 🐌 
