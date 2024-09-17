@@ -99,6 +99,13 @@ nav a {
 	margin-right: 8px;
 }
 
+/* h-card */
+.hcard {
+	padding: 1rem;
+	margin: 1rem 0rem;
+	border: 1px dashed;
+}
+
 /* Footer */
 footer {
     height: 30px;
