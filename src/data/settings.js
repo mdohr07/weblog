@@ -5,7 +5,7 @@ export default {
   // JSON LD
   name: `mdohr07`,
   // Mastodon URL
-  mastodonURL: `https://indieweb.social/@mdohr07,
+  mastodonURL: `https://indieweb.social/@mdohr07`,
   // GitHub URL
-  githubURL: `https://github.com/mdohr07,
+  githubURL: `https://github.com/mdohr07`,
 };
