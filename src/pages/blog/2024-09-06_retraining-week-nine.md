@@ -5,7 +5,7 @@ description: A reflection on the ninth week of my retraining in IT with Construc
 publishDate: Friday, September 06 2024
 author: "mdohr07"
 image: "/assets/blog/2024-09/Screenshot2024-09-05_1.png"
-alt: Trees in the mountains
+alt: A Java code with colorful notes and arrows
 ---
 music: "Falling - Infraction, Aim To Head"
 mood: Sad
