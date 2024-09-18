@@ -6,6 +6,8 @@ const seo = {
   title: "mdohr",
   description: "This is a starter repo for an blog built with Astro including open graph tags, canonical urls, RSS, sitemap support."
   }
+  
+const updates = await Astro.glob("../content/updates/*md");
 ---
 
 <Layout
@@ -93,6 +95,16 @@ Meanwhile, feel free to reach out to me:
                 href="https://indieauth.com/auth"
             />
 </div>
+
+ <section class="updates" lang="en">
+        {
+            updates.map(({ Content }) => (
+                <article>
+                    <Content />
+                </article>
+            ))
+        }
+    </section>
 
   </Container>
 </Layout>
