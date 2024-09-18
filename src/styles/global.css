@@ -48,10 +48,12 @@ blockquote {
 }
 
 code {
-    background-color: #000000;
-    padding: 0 2px;
-    border-radius: 3px;
-    font-size: 1.05rem;
+    background-color: #CCCC99;
+	padding: 0 2px;
+	border-radius: 3px;
+	font-size: 1.05rem;
+	color: #333;
+}
 }
 
 pre code {
@@ -110,12 +112,13 @@ nav a {
 .updates {
 	background-color: transparent;
 	border: 1px solid;
+	margin: 1rem 0rem;
 	padding: 1rem;
 	overflow: scroll;
 	height: 250px;
 }
 
-.updates date {
+.updates p date {
 	text-decoration: bold;
 }
 
