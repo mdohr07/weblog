@@ -4,8 +4,8 @@ title: IT Specialist retraining - A week off
 description: I had a week off from the IT training, enjoyed my free time and it was also my Birthday 🎂
 publishDate: Sunday, August 04 2024
 author: "mdohr07"
-image: "/assets/blog/2024-08/barGraph.png"
-alt: A Java code with colorful notes and arrows
+image: "/assets/blog/2024-08/HamtaroRR9.png"
+alt: Hamham says with my umbrella, I'll make a rainbow that goes to Rainbow Land!
 ---
 music: "Last dance (with you) - Trash80" <br>
 mood: Calm
