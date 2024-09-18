@@ -99,18 +99,24 @@ nav a {
 	margin-right: 8px;
 }
 
-/* h-card */
+/* h-card 
 .hcard {
 	padding: 1rem;
 	margin: 1rem 0rem;
 	border: 1px dashed;
-}
+}*/
 
 /* Updates Section */
 .updates {
 	background-color: transparent;
 	border: 1px solid;
 	padding: 1rem;
+	overflow: scroll;
+	height: 250px;
+}
+
+.updates date {
+	text-decoration: bold;
 }
 
 /* Footer */
