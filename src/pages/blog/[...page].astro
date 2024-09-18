@@ -40,10 +40,10 @@ const { page } = Astro.props;
       <section class="postlist">
         {page.data.map((post) => <BlogPostPreview post={post} />)}
       </section>
+	    <button class="retro-button"><a href="mailto:mdohr07@gmail.com">Reply via E-Mail</a></button>
     </article>
     <Paginator page={page}/>
   </Container>
-  <button class="retro-button"><a href="mailto:mdohr07@gmail.com">Reply via E-Mail</a></button>
 </Layout>
 
 <style>
