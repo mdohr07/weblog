@@ -5,7 +5,7 @@ description: The upcoming retraining as an IT specialist and how it came about
 publishDate: Saturday, November 11 2023
 author: "mdohr07"
 image: "/assets/blog/default.png"
-alt: Charlie Brown and Linus walking and Charlie says he Always Ends up Feeling depressed
+alt: default image
 ---
 
 I’ve always been a very visual person. It helps me immensely when I can establish a connection through something visual, and I think that has a lot to do with my close relationship with art. I often think in images, and through all kinds of visual mediums, I develop a sense, an idea, or an association that helps me understand what I need to do. Only then can I find the words to describe my idea.
