@@ -4,26 +4,22 @@ import Container from '../../components/Container.astro';
 import BlogPostPreview from '../../components/BlogPostPreview.astro';
 import Paginator from '../../components/Paginator.astro'
   
-  
-export async function getStaticPaths({paginate}) {
-
+export async function getStaticPaths({ paginate }) {
   const posts = await Astro.glob('./*.md').then(posts =>
-	posts
-		.map(({ frontmatter, url }) => ({
-      url: url,
-			title: frontmatter.title,
-			description: frontmatter.description,
-			publishDate: frontmatter.publishDate,
-			image: frontmatter.image,
-		}))
-		// .sort((a, b) => {
-		// 	new Date(b.publishDate) - new Date(a.publishDate)
-		// })
-);
-return paginate(posts, {pageSize: 10});
-
-
+    posts
+      .map(({ frontmatter, url }) => ({
+        url: url,
+        title: frontmatter.title,
+        description: frontmatter.description,
+        publishDate: frontmatter.publishDate,
+        image: frontmatter.image,
+      }))
+      // Sortiere die Posts nach Datum (neueste zuerst)
+      .sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate)) // Wichtig: Vergiss nicht das `return`-Statement für den Sortieralgorithmus!
+  );
+  return paginate(posts, { pageSize: 10 });
 }
+
 // Component Script:
 // You can write any JavaScript/TypeScript that you'd like here.
 // It will run during the build, but never in the browser.
