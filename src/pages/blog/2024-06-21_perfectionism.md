@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/Post.astro
 title: About perfectionism
-description:A reflection on my own perfectionism
+description: A reflection on my own perfectionism
 publishDate: Saturday, June 22 2024
 author: "mdohr07"
 image: "/assets/blog/2024-06/willie.png"
