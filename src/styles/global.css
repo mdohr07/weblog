@@ -106,6 +106,13 @@ nav a {
 	border: 1px dashed;
 }
 
+/* Updates Section */
+.updates {
+	background-color: transparent;
+	border: 1px solid;
+	padding: 1rem;
+}
+
 /* Footer */
 footer {
     height: 30px;
