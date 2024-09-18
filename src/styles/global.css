@@ -102,10 +102,7 @@ nav a {
 
 /* h-card */
 .hcard {
-	padding: 1rem;
-	margin: 1rem 0rem;
-	border: 1px dashed;
-}
+	margin: 2rem 0rem 3rem 0rem;
 
 /* Updates Section */
 .updates {
