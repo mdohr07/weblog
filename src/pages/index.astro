@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Base.astro";
 import Container from "../components/Container.astro";
+import BlogPostPreview from '../../components/BlogPostPreview.astro';
 
 const seo = {
   title: "mdohr",
@@ -8,6 +9,22 @@ const seo = {
   }
   
 const updates = await Astro.glob("../content/updates/*md");
+
+export async function getStaticPaths({ paginate }) {
+  const posts = await Astro.glob('./*.md').then(posts =>
+    posts
+      .map(({ frontmatter, url }) => ({
+        url: url,
+        title: frontmatter.title,
+        description: frontmatter.description,
+        publishDate: frontmatter.publishDate,
+        image: frontmatter.image,
+      }))
+      // Sortiere die Posts nach Datum (neueste zuerst)
+      .sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate)) // Wichtig: Vergiss nicht das `return`-Statement für den Sortieralgorithmus!
+  );
+  return paginate(posts, { pageSize: 5 });
+}
 ---
 
 <Layout
@@ -110,6 +127,10 @@ const updates = await Astro.glob("../content/updates/*md");
             ))
         }
     </section>
-
+<article class="blog-page-content__article">
+      <section class="postlist">
+        {page.data.map((post) => <BlogPostPreview post={post} />)}
+      </section>
+    </article>
   </Container>
 </Layout>
