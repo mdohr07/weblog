@@ -6,10 +6,9 @@ publishDate: Sunday, July 28 2024
 author: "mdohr07"
 image: "/assets/blog/2024-07/tinktink.png"
 alt: Screenshots of our website project
----
-music: "Avalanche - Dan Terminus"<br>
+music: "Avalanche - Dan Terminus"
 mood: Calm
-
+---
 This week we worked with HTML and CSS, but Git was also a topic again. From - I think - the second day onwards, we had to divide into teams to work on a collaborative website project. The website was to be static and built in HTML and CSS, using Git. There was a layout that we were supposed to follow and we started off very loosely. 
 My team actually consisted of four members, but due to personal circumstances, one member was absent for most of the week and there were only three of us. In addition, one member had to bring her son to class from time to time, as there is currently no all-day care for him. That was a bit difficult at times, especially for the mother.
 There was supposed to be a test at the end of the week, but then the plan was changed at short notice: now the website project was to be presented and assessed instead of writing a test. By the time we found out, it was already Wednesday. If I had known this from the beginning, I wouldn't have approached it so casually and would have planned and structured it more clearly instead.

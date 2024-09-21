@@ -5,11 +5,10 @@ description: A reflection on the fifth week of my retraining in IT where we are 
 publishDate: Sunday, August 11 2024
 author: "mdohr07"
 image: "/assets/blog/2024-08/thisisfine.png"
-alt: Binary code is raining down on a yellow dog who sits on a chair  
----
-music: "Asteroid Rain - Wice"<br>
+alt: Binary code is raining down on a yellow dog who sits on a chair
+music: "Asteroid Rain - Wice"
 mood: Lazy
-
+---
 Week five is done and it's time for another reflection post! If I am completely honest, I feel lazy about today's reflection, but I want to keep my streak 😋
 The week itself was fine though. The teacher is nice, I was afraid that he wouldn't be. 
 

@@ -6,10 +6,9 @@ publishDate: Wednesday, June 19 2024
 author: "mdohr07"
 image: "/assets/blog/2024-06/takenapart.png"
 alt: bicycle on the Floor with the back Wheel and a loose tire around it leaning against the wall
----
 music: "Lullaby - The Cure"
 mood: Calm
-
+---
 Today I want to talk about cycling. Road cycling has become a very important part of my life. I only discovered the hobby "late" for myself, namely in December 2022, which is not that long ago. If I had started it when I was younger, I might have a different opinion on the subject now, but I don't ride for the competition. I have little to no interest in taking part in bike races, even if my skills on the bike were to improve dramatically. I ride for fun and although I like to challenge myself and enjoy improvements in performance, I tend to be cautious rather than reckless. I don't speed through crowds of people, I slow down when a duck crosses the road and I can be patient for a while when grannies and grandpas creep slowly in front of me and I can't pass them because a car is coming from across the road. Just a disclaimer before the next few paragraphs.
 
 But as I said, I'm happy to see personal improvements and I've seen some of them consistently recently! My fitness curve has been rising steadily recently and that is extremely motivating. I keep track of my progress in my journal - the paper bound thing that you can write in with a pen, the old fashioned way. I do have Strava and use it to record my statistics, but as my account is free, I can't look at an overview over a period longer than a month. That's why I compare the individual months using the records in my journal. This way I can see what has brought about or facilitated my progress.

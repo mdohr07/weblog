@@ -7,7 +7,6 @@ author: "mdohr07"
 image: "/assets/blog/default.png"
 alt: default image
 ---
-
 I’ve always been a very visual person. It helps me immensely when I can establish a connection through something visual, and I think that has a lot to do with my close relationship with art. I often think in images, and through all kinds of visual mediums, I develop a sense, an idea, or an association that helps me understand what I need to do. Only then can I find the words to describe my idea.
 
 In art, it’s often a goal for the artwork to evoke a feeling in the viewer, and it’s not much different for websites. However, in the world of web design, the aim is to attract users rather than evoke unpleasant emotions. My approach is to first find a feeling, a vibe, and visualize it—whether in my mind or through digital drafts and sketches.

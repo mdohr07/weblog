@@ -6,11 +6,9 @@ publishDate: Friday, August 9 2024
 author: "mdohr07"
 image: "/assets/blog/2024-08/potato.png"
 alt: A Java code with colorful notes and arrows
----
-
-music: none<br>
+music: none
 mood: Restless
-
+---
 Today I want to write about friendship. The inspiration for this was a friendship that I have lost not too long ago as well as my experience of having to socialise a lot lately.
 Let’s go way back first. 
 

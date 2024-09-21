@@ -6,10 +6,9 @@ publishDate: Wednesday, August 25 2024
 author: "mdohr07"
 image: "/assets/blog/2024-08/barGraph.png"
 alt: A Java code with colorful notes and arrows
----
-music: "Dawn again (Alphaluna Remix) - Endanger"<br>
+music: "Dawn again (Alphaluna Remix) - Endanger"
 mood: Lazy
-
+---
 I gotta say: week seven was hard. We had a test upcoming on Friday but also touched on our next topic which is Arrays in Java. And that was gonna be asked about in the test as well and I had trouble with it. I guess, that might be normal, we just started. But I wanted to do well in the test so that was troubeling.
 
 ## My best Java Code so far
