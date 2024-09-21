@@ -59,6 +59,10 @@ pre code {
     background: transparent;
 }
 
+time {
+    line-height: 16px;
+}
+
 /* Titles */
 h1.webite-title a {
 	display: inline-block;
@@ -71,6 +75,11 @@ h1.webite-title a {
 
 h1.title {
 	font-size: 1rem;
+}
+
+h1.post-title {
+    font-size: 2rem;
+    margin-bottom: 5px;
 }
 
 /* Links */
