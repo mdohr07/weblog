@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/Post.astro
 title: IT Specialist retraining - Week eleven
-description: A reflection on the tenth week of my retraining in IT with Constructors and more in Java 
+description: A reflection on the tenth week of my retraining in IT with Java, but also a photographer and a Conference
 publishDate: Sunday, September 22 2024
 author: "mdohr07"
 image: "/assets/blog/2024-09/campusKonferenzLogo.png"
