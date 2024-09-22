@@ -94,6 +94,21 @@ a:hover {
     cursor: url('/assets/cursors/pointer.gif'), auto;
 }
 
+button {
+    background-color: #ccc;
+    border-radius: 0;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #999;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #999;
+    padding: 3px 5px;
+}
+
+button a, button a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
 header {
     margin-top: 0px;
     margin-bottom: 80px;
