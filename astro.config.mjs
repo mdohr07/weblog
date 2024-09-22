@@ -1,9 +1,7 @@
-import { defineConfig } from 'astro/config'; // import lit from '@astrojs/lit';
-
+import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
-// https://astro.build/config
 export default defineConfig({
-  site: "https://mdohr.space/",
-  integrations: [sitemap()]
+  site: 'https://mdohr.space', // Stelle sicher, dass die URL korrekt ist
+  integrations: [sitemap()],
 });
