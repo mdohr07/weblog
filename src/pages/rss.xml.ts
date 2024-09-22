@@ -1,18 +1,13 @@
-import rss from '@astrojs/rss';
+/*
+import rss, { pagesGlobToRssItems } from '@astrojs/rss';
 
-export function GET(context) {
+export async function GET(context) {
   return rss({
-    // `<title>` field in output xml
-    title: 'mdohr\'s weblog',
-    // `<description>` field in output xml
-    description: 'My personal weblog',
-    // Pull in your project "site" from the endpoint context
-    // https://docs.astro.build/en/reference/api-reference/#contextsite
+    title: 'mdohr’s Blog',
+    description: 'This is my blog about my IT learning journey, some art, some games and road cycling. Just anything that personally interests me.',
     site: context.site,
-    // Array of `<item>`s in output xml
-    // See "Generating items" section for examples using content collections and glob imports
-    items: [],
-    // (optional) inject custom xml
-    customData: `<language>en-us</language>`,
+    items: await pagesGlobToRssItems(
+      import.meta.glob('./blog/*.{md,mdx}'),
+    ),
   });
-}
+} */

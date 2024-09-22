@@ -73,8 +73,13 @@ h1.webite-title a {
 	text-decoration: none;
 }
 
-.postlist h1.title {
-	font-size: 1.25rem;
+h1.title {
+	font-size: 1rem;
+}
+
+h1.post-title {
+    font-size: 2rem;
+    margin-bottom: 5px;
 }
 
 /* Links */
@@ -92,21 +97,6 @@ a:visited {
 a:hover {
     color: #CCCC99;
     cursor: url('/assets/cursors/pointer.gif'), auto;
-}
-
-button {
-    background-color: #ccc;
-    border-radius: 0;
-    border-top: 2px solid #fff;
-    border-right: 2px solid #999;
-    border-left: 2px solid #fff;
-    border-bottom: 2px solid #999;
-    padding: 3px 5px;
-}
-
-button a, button a:hover {
-    color: blue;
-    text-decoration: none;
 }
 
 header {

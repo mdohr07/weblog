@@ -6,9 +6,10 @@ publishDate: Sunday, July 21 2024
 author: "mdohr07"
 image: "/assets/blog/2024-07/mabelle.png"
 alt: Animal Crossing Mabelle in distress
-music: "Mother - RandomBeats, Rifti Beats"
-mood: Fine and dandy
 ---
+music: "Mother - RandomBeats, Rifti Beats"<br>
+mood: Fine and dandy
+
 This week was a little different to the previous two weeks: Instead of focusing on IT topics, this time we spent a whole week on communication training and team building. 
 
 We got to hear a bit of theory about communication, different types of communication and what can disrupt it. We also took a short personality test. These topics were not really new to me as I do a lot of reflecting and analyzing. 

@@ -6,9 +6,10 @@ publishDate: Sunday, August 04 2024
 author: "mdohr07"
 image: "/assets/blog/2024-08/HamtaroRR9.png"
 alt: Hamham says with my umbrella, I'll make a rainbow that goes to Rainbow Land!
-music: "Last dance (with you) - Trash80"
-mood: Calm
 ---
+music: "Last dance (with you) - Trash80" <br>
+mood: Calm
+
 So I had this week off. Conveniently, it was also my birthday and I actually used the time to relax (for the most part). I took the first weekend in particular very slowly and was - by my definition - lazy 😁
 
 ## Retro Gaming

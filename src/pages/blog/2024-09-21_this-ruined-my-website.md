@@ -6,9 +6,10 @@ publishDate: Saturday, September 21 2024
 author: "mdohr07"
 image: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXQyc2QxcHZvdGVzbzJkYmFicmdrbmU2Zm45N3FqdmF2anpveXRjZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/otP85UTRethni/giphy.webp"
 alt: Cartoon Batman cries
-music: none
-mood: tired
 ---
+music: none<br>
+mood: tired
+
 Now I finally have time to write about the disaster that took my website down for a while.
 
 ## Stay away from Gtranslate(.io)
@@ -45,6 +46,6 @@ First, I tried once again to locate the culprit using the search function in VS 
 
 I concluded that the cleanest and possibly even the quickest solution was to rebuild my site from scratch. I did this again during my breaks at retraining (or during moments when nothing much was happening, which I took advantage of). I still had all my blog posts, so I just had to copy them over and adjust them to my new format.
 
-Some functionalities are still missing, unfortunately. For one, I’d like to <s>add back the information about the music I’m listening to and my current mood</s> to my posts. That should be relatively easy to sort out. What's a bit trickier for me is setting up the RSS feed properly again, as well as the sitemap and robots.txt. It's annoying because I had just (finally) managed to get that working recently. Now I have to do it all over again. A few static pages are missing too, as you can see, and I’m not sure yet if I’ll include them again. Maybe I’ll just leave it as is. I’ve decided to use an even simpler design—currently monochromatic, except for images or graphics. That made things a bit quicker. The color scheme, by the way, was a spontaneous decision...
+Some functionalities are still missing, unfortunately. For one, I’d like to add back the information about the music I’m listening to and my current mood to my posts. That should be relatively easy to sort out. What's a bit trickier for me is setting up the RSS feed properly again, as well as the sitemap and robots.txt. It's annoying because I had just (finally) managed to get that working recently. Now I have to do it all over again. A few static pages are missing too, as you can see, and I’m not sure yet if I’ll include them again. Maybe I’ll just leave it as is. I’ve decided to use an even simpler design—currently monochromatic, except for images or graphics. That made things a bit quicker. The color scheme, by the way, was a spontaneous decision...
 
 <img src="https://i.giphy.com/3o6MbfslpSgZQhgaPK.webp" alt="Mr. Burns presses activates a spray can namely Bug Bomb and takes a step back when it stars hissing und humming">

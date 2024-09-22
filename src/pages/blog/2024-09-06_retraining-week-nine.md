@@ -6,9 +6,10 @@ publishDate: Friday, September 06 2024
 author: "mdohr07"
 image: "/assets/blog/2024-09/Screenshot2024-09-05_1.png"
 alt: A Java code with colorful notes and arrows
-music: "Falling - Infraction, Aim To Head"
-mood: Sad
 ---
+music: "Falling - Infraction, Aim To Head"<br>
+mood: Sad
+
 Nope, I don't feel smarter yet. I still feel very stupid and behind. This week was less slow, the teacher has now stepped on the gas. But at the same time we were released extra early the last two days because it was specially hot.
 
 ## Study you must
