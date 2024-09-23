@@ -1,5 +1,10 @@
 ## Last updates
 
+<date>2024.09.23</date>
+<p>
+    The site is rebuilt, (almost all) the blog entries are back online. Some functionalities are gone. But You can click on the music that I am listening to now (in the entries) ^_^
+</p>
+
 <date>2024.09.18</date>
 <p>
     Forget about what I wrote previously. the problem was not fixed. now it is and only because I rebuilt the whole site. That's why it looks so different around here.
