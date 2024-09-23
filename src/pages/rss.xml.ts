@@ -1,36 +1,18 @@
 import rss from '@astrojs/rss';
-import fs from 'fs';
-import matter from 'gray-matter';
-import { join, extname } from 'path';
 
-export async function GET(context) {
-  const postsDirectory = join(process.cwd(), 'src/pages/blog');
-  const filenames = fs.readdirSync(postsDirectory);
-
-  const posts = filenames
-    .filter(filename => extname(filename) === '.md') // Nur Markdown-Dateien verarbeiten
-    .map(filename => {
-      const filePath = join(postsDirectory, filename);
-      const fileContents = fs.readFileSync(filePath, 'utf8');
-      const { data, content } = matter(fileContents);
-
-      return {
-        slug: filename.replace(/\.md$/, ''),
-        data,
-        content,
-      };
-    });
-
+export function GET(context) {
   return rss({
-    title: 'mdohr07’s Weblog',
-    description: 'A personal space about Informatics, Art, Road Cycling, 3D and the Indie Web',
+    // `<title>` field in output xml
+    title: 'mdohr’s weblog',
+    // `<description>` field in output xml
+    description: 'A personal blog about web, coding and other things that interest me',
+    // Pull in your project "site" from the endpoint context
+    // https://docs.astro.build/en/reference/api-reference/#contextsite
     site: context.site,
-    items: posts.map(post => ({
-      title: post.data.title,
-      description: post.data.description,
-      pubDate: post.data.date,
-      link: `/blog/${post.slug}/`,
-    })),
+    // Array of `<item>`s in output xml
+    // See "Generating items" section for examples using content collections and glob imports
+    items: [],
+    // (optional) inject custom xml
     customData: `<language>en-us</language>`,
   });
 }
