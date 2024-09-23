@@ -63,6 +63,20 @@ time {
     line-height: 16px;
 }
 
+button {
+    	background-color: #CCC;
+	border-top: #fff;
+	border-right: #999;
+	border-left: #fff;
+	border-bottom: #999;
+	padding: 3px 5px;
+}
+
+button a, button a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
 /* Titles */
 h1.webite-title a {
 	display: inline-block;
