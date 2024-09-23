@@ -7,6 +7,7 @@ author: "mdohr07"
 image: "/assets/blog/2024-09/campusKonferenzLogo.png"
 alt: a purple background and white text with Campus Konferenz Logo
 music: "https://www.youtube.com/watch?v=2Si9s9SwXz8"
+musicTitle: "I drop gems - _ensnare_"
 mood: "calm"
 ---
 
@@ -52,5 +53,3 @@ After that, I only attended lectures; overall, all the events felt quite drawn-o
 Once the official event was over and beer and wine were offered, strangely, not many of the over three hundred participants were still around. That was a bit disappointing, as it would have been a great opportunity to meet new people. Instead, small groups formed here and there, so I stayed for a while with a glass of white wine among a few of my classmates. We had a good conversation in our little group, and I enjoyed it. Still, I said goodbye after finishing my glass. A part of me would have liked to stay longer, but another part wanted to avoid coming home too late and try to remain as sober as possible on the way back.
 
 The day was okay, but it felt quite long, and in the evening, I fell into bed especially tired.
-
-🎵<a href="https://www.youtube.com/watch?v=2Si9s9SwXz8" target="_blank">I drop gems - _ensnare_</a>
