@@ -6,10 +6,9 @@ publishDate: Saturday, June 22 2024
 author: "mdohr07"
 image: "/assets/blog/2024-06/willie.png"
 alt: Simpsons Willie says he has to write this in his journal and pulls out a tattoo needle
+musicTitle: "Losing my religion - R.E.M."
+mood: "Apathetic"
 ---
-music: "Losing my religion - R.E.M."<br>
-mood: Apathetic
-
 A few years ago, I realized that I needed to take better care of my mental health. One of the steps I took to do this was to look at my own spirituality or possible lack of it, but I also wanted to keep something like a diary, this time more consistently than before. So I discovered bullet journaling for myself in a few roundabout ways. In the beginning, I followed the instructions or "guides", of which there are tons on the internet, to a certain extent. I wanted it to be neat and clear. That was really fun, but over the years I've realized what I can do without and what is important for me personally to keep. The latter includes the creative aspect in particular - I just like to make things pretty and often express myself visually. But I also have to-do lists, a certain overview of particular activities such as cycling and the act of writing itself is also important. Admittedly, I very rarely write down profound thoughts, it's usually a very simple reflection of what happened that day.
 
 One principle I picked up somewhere for journaling is this: have a thread or glued binding (which I find the most beautiful anyway) and make it a rule never to tear out a page. The idea behind this is that you correct mistakes (or not?), learn to deal with them differently and be less of a perfectionist. That probably sounds simple, but it really helped me a lot. I've realized that I don't have to radically throw everything "in the trash", but that I can simply correct it and sometimes it even looks nicer and more individual than before.

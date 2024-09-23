@@ -6,10 +6,9 @@ publishDate: Sunday, July 07 2024
 author: "mdohr07"
 image: "/assets/blog/2024-07/mathchloe.png"
 alt: Sideeye Chloe is side eying some math
+musicTitle: "Vampirevania - Jeremiah Kane"
+mood: "Tired"
 ---
-music: "Vampirevania - Jeremiah Kane"<br>
-mood: Tired
-
 The first week of retraining is behind me and I would like to reflect on it a little in this post. I'd love to write a review like this every week, but unfortunately I might not have the time. 
 
 On the first day, I wanted to arrive early so that I could secure a window seat. Things didn't go as planned: my plans to ride my bike were thwarted. When I left the house, it was raining more than expected and I spontaneously decided to leave the bike and jump on the next tram. Unfortunately, there were some detour and cancellations due to track works, so I had no alternative and had to rely on a certain tram line that only runs every twenty minutes. So I made it to the company building just in time and most of the seats were taken. But I was still lucky because I'm in very good company where I'm sitting now 😁

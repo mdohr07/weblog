@@ -6,10 +6,9 @@ publishDate: Friday, July 12 2024
 author: "mdohr07"
 image: "/assets/blog/2024-07/simplemath.png"
 alt: Hyroglyphs on a whiteboard and a text that says it's simple math
----
-music: "Voyage Voyage - Sirenia"<br>
+musicTitle: "Voyage Voyage - Sirenia"
 mood: Hungry
-
+---
 After the second week of retraining, I feel good, but also like I need some distance and a break. I spent the last weekend studying and then, of course, the retraining continued straight away. There was one day when all the calculating really got me down and I couldn't see the forest for the trees. Yesterday we were allowed to go home early, but as there was a test today, I studied a bit more to be better prepared. As a result, I'm now tired and especially don't want to see numbers anymore!
 
 I think I've got the conversion of units down now, it's the text problems that are giving me a hard time and are currently my biggest hurdle. 

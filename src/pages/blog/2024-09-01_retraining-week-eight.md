@@ -6,10 +6,9 @@ publishDate: Sunday, September 01 2024
 author: "mdohr07"
 image: "/assets/blog/2024-09/nani.jpeg"
 alt: drawn mummy says NANI?!
+music: "none"
+mood: "Anxious"
 ---
-music: "none"<br>
-mood: Anxious
-
 That week was a bit strange. It feels like it went rather slow and sluggish 🐌 
 In the beginning of the week we learned about two dimensional arrays. As if one dimensional Arrays weren't struggle enough! I don't know why, but I have trouble remembering Array syntax. I'll have to practice more. We also started with Methods in Java. Those are a bit confusing, but also cool. Seems very useful and practial, once understood. 
 

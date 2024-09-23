@@ -6,10 +6,9 @@ publishDate: Monday, June 10 2024
 author: "mdohr07"
 image: "/assets/blog/2024-06/charliebrown.png"
 alt: Charlie Brown and Linus walking and Charlie says he Always Ends up Feeling depressed
+musicTitle: "I'm gonna getcha good! (live) - Shania Twain"
+mood: "Nostalgic"
 ---
-music: "I'm gonna getcha good! (live) - Shania Twain"<br>
-mood: nostalgic
-
 It's been a long time since I wrote a blog entry. I openly admit that I didn't feel like writing anything because I was demotivated, which is due to the fact that I was often rather depressed. Looking for a job was the main reason. Whenever I got my hopes up for a job, they were dashed again. For example, because of an (alleged) lack of experience, partly because of skills that I really just didn't have and agencies that didn't want to take any risks. It was mainly the rejections that seemed unjustified that got to me. But I don't want to go into any more detail.
 
 <div style="width:100%;height:0;padding-bottom:73%;position:relative;"><iframe src="https://giphy.com/embed/Zk9GgdHpYWxLa" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/sad-depressed-charlie-brown-Zk9GgdHpYWxLa">via GIPHY</a></p>

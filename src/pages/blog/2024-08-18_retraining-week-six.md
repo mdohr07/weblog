@@ -6,10 +6,10 @@ publishDate: Sunday, August 18 2024
 author: "mdohr07"
 image: "/assets/blog/2024-08/palindromeCode.png"
 alt: My Java code in IntelliJ
+music: ""
+musicTitle: "Art3mis & Parzival - Gunship, Stella Le Page"
+mood: "Indecisive"
 ---
-music: "Art3mis & Parzival - Gunship, Stella Le Page"<br>
-mood: Indecisive
-
 This week was horribly hot outside, but also inside of the classroom, which made focussing harder. We got to write some little console programs to train ourselves and in the end we compared our results and got to see several approaches to do the same thing. 
 
 ## No pastry for me (yet?)
