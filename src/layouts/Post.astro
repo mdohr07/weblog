@@ -17,18 +17,18 @@ const { frontmatter } = Astro.props;
       <img width="720" height="420" class="post-main__img" loading="lazy" src={frontmatter.image} alt={frontmatter.alt} />
     )}
     <h1 class="post-title">{frontmatter.title}</h1>
-    <time>{frontmatter.publishDate}</time><br/><br/>
+    <time>{frontmatter.publishDate}</time>
 
-    <p><strong>Mood:</strong> {frontmatter.mood}</p>
+<p><strong>Mood:</strong> {frontmatter.mood}<br/>
 
-    <p>
-      <strong>Music:</strong> 
-      {frontmatter.music && frontmatter.music !== "none" ? (
-        <a href={frontmatter.music} target="_blank">{frontmatter.musicTitle}</a>
-      ) : (
-        "none"
-      )}
-    </p>
+<strong>Music:</strong> 
+  {frontmatter.music && frontmatter.music !== "none" ? (
+    <a href={frontmatter.music} target="_blank">{frontmatter.musicTitle || "none"}</a>
+  ) : (
+    "none"
+  )}
+</p>
+
 
     <slot />
   </article>
