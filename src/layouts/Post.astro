@@ -19,7 +19,7 @@ const { frontmatter } = Astro.props;
       <p><strong>Mood:</strong> {frontmatter.mood}</p>
       {frontmatter.music && (
         <p>
-          <strong>Music:</strong> <a href={frontmatter.music} target="_blank">Hör dir die Musik an</a>
+          <strong>Music:</strong> <a href={frontmatter.music} target="_blank">{frontmatter.music}</a>
         </p>
       )}
 
