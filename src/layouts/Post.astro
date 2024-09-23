@@ -19,13 +19,16 @@ const { frontmatter } = Astro.props;
     <h1 class="post-title">{frontmatter.title}</h1>
     <time>{frontmatter.publishDate}</time><br/><br/>
 
-    <p><strong>Stimmung:</strong> {frontmatter.mood}</p>
-    
-    {frontmatter.music && frontmatter.music !== "none" && (
-      <p>
-        <strong>Musik:</strong> <a href={frontmatter.music} target="_blank">{frontmatter.music}</a>
-      </p>
-    )}
+    <p><strong>Mood:</strong> {frontmatter.mood}</p>
+
+    <p>
+      <strong>Music:</strong> 
+      {frontmatter.music && frontmatter.music !== "none" ? (
+        <a href={frontmatter.music} target="_blank">{frontmatter.music}</a>
+      ) : (
+        "none"
+      )}
+    </p>
 
     <slot />
   </article>
@@ -35,5 +38,6 @@ const { frontmatter } = Astro.props;
     </button>
   </p>
 </Container>
+
 
 </Layout>
