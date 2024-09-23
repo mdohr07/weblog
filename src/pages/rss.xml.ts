@@ -1,8 +1,13 @@
-import { defineConfig } from 'astro/config';
-import rss from '@astrojs/rss';
+import rss, { pagesGlobToRssItems } from '@astrojs/rss';
 
-export default defineConfig({
-  site: 'https://mdohr.space', 
-  integrations: [rss()],
-});
-
+export async function GET(context) {
+  return rss({
+    title: 'mdohr’s weblog',
+    description: 'A personal blog about web, coding and other things that interest me',
+    site: context.site, // Kontext der Site verwenden
+    items: await pagesGlobToRssItems(
+      // Verwende den relativen Pfad von src/pages für Blog-Posts
+      import.meta.glob('./blog/*.{md,mdx}')
+    ),
+  });
+}
