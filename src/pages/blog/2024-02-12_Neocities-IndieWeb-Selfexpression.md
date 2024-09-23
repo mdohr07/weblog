@@ -6,6 +6,8 @@ publishDate: Friday, February 02 2024
 author: "mdohr07"
 image: "/assets/blog/2024-02/modemdials.png"
 alt: early 90s Looking Boy holds up his Palm behind his ear to listen to the modem dialing
+music: "none"
+mood: "'_'"
 ---
 I stumbled upon Neocities more or less by accident. But I was likely looking for a platform that could fulfill my need for a creative community that isn’t completely part of the online mainstream and the dictatorship of big corporations. I don’t remember exactly how I found it, but I came across Neocities, which sounded quite familiar to me. And for good reason, as it turns out to be the successor to Geocities.
 
