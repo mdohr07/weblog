@@ -6,10 +6,9 @@ publishDate: Monday, September 23 2024
 author: "mdohr07"
 image: "/assets/blog/2024-09/new.png"
 alt: Cartoon Batman cries
+music: "none"
+mood: "good"
 ---
-music: none<br>
-mood: good
-
 At the end of last week, I realized that I’m not blogging enough. Even before, I didn’t write in my blog (whichever one I was using at the time) that often, but I used to keep a physical journal. That’s no longer the case.
 
 ## Neglected journaling
