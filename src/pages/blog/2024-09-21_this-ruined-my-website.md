@@ -6,10 +6,9 @@ publishDate: Saturday, September 21 2024
 author: "mdohr07"
 image: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXQyc2QxcHZvdGVzbzJkYmFicmdrbmU2Zm45N3FqdmF2anpveXRjZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/otP85UTRethni/giphy.webp"
 alt: Cartoon Batman cries
+music: "none"
+mood: "tired"
 ---
-music: none<br>
-mood: tired
-
 Now I finally have time to write about the disaster that took my website down for a while.
 
 ## Stay away from Gtranslate(.io)

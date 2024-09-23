@@ -6,10 +6,9 @@ publishDate: Wednesday, September 18 2024
 author: "mdohr07"
 image: "/assets/blog/2024-09/horseclass.png"
 alt: My Java code of a horse object that occasionally shoots lasers from its eyes
----
-music: none<br>
+music: none
 mood: stressed
-
+---
 This post is later than planned, usually I upload one on the weekend but this time I had some disaster happening which prevented me from that. I rebuilt the site by now, some things are still missing and in some ways this is a simpler version now. But it's running. And most of my posts are revived and back online. I'll write a separate post about the issue and make today's post short because my memory is not as fresh anymore.
 
 ## Working with associations
