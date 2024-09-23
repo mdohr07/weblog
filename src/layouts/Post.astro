@@ -19,10 +19,10 @@ const { frontmatter } = Astro.props;
     <h1 class="post-title">{frontmatter.title}</h1>
     <time>{frontmatter.publishDate}</time><br/><br/>
 
-    <p><strong>Stimmung:</strong> {frontmatter.mood}</p>
+    <p><strong>Mood:</strong> {frontmatter.mood}</p>
 
     <p>
-      <strong>Musik:</strong> 
+      <strong>Music:</strong> 
       {frontmatter.music && frontmatter.music !== "none" ? (
         <a href={frontmatter.music} target="_blank">{frontmatter.musicTitle}</a>
       ) : (
