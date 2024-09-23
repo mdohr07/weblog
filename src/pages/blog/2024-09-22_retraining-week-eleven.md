@@ -6,9 +6,10 @@ publishDate: Sunday, September 22 2024
 author: "mdohr07"
 image: "/assets/blog/2024-09/campusKonferenzLogo.png"
 alt: a purple background and white text with Campus Konferenz Logo
-music: I drop gems - _ensnare_
-mood: calm
 ---
+music: I drop gems - _ensnare_<br>
+mood: calm
+
 Another week has passed. In this eleventh week, we continued to work on inheritance in Java. Most of the time before lunch was spent on theory and discussing previous tasks, and after lunch, we tackled new assignments. Our teacher specifically gave us a task involving arrays since several students seemed to struggle with that concept.
 
 ```java
