@@ -10,25 +10,30 @@ const { frontmatter } = Astro.props;
   <Fragment slot="head-bottom">
     <ArticleSchema {...frontmatter} />
   </Fragment>
-  <Container>
-    <article class="post-content__article">
-      {frontmatter.image && <img width="720" height="420" class="post-main__img" loading="lazy" src={frontmatter.image} alt={frontmatter.alt} />}
-      <h1 class="post-title">{frontmatter.title}</h1>
-      <time>{frontmatter.publishDate}</time><br/><br/>
 
-<p><strong>Mood:</strong> {frontmatter.mood}</p>
+<Container>
+  <article class="post-content__article">
+    {frontmatter.image && (
+      <img width="720" height="420" class="post-main__img" loading="lazy" src={frontmatter.image} alt={frontmatter.alt} />
+    )}
+    <h1 class="post-title">{frontmatter.title}</h1>
+    <time>{frontmatter.publishDate}</time><br/><br/>
+
+    <p><strong>Stimmung:</strong> {frontmatter.mood}</p>
+    
     {frontmatter.music && frontmatter.music !== "none" && (
-      <br/>
-        <strong>Music:</strong> <a href={frontmatter.music} target="_blank">{frontmatter.music}</a>
+      <p>
+        <strong>Musik:</strong> <a href={frontmatter.music} target="_blank">{frontmatter.music}</a>
       </p>
     )}
 
-      <slot />
-    </article>
-    <p>
-      <button>
-        <a href="mailto:mdohr07@gmail.com">Reply via E-Mail</a>
-      </button>
-    </p>
-  </Container>
+    <slot />
+  </article>
+  <p>
+    <button>
+      <a href="mailto:mdohr07@gmail.com">Reply via E-Mail</a>
+    </button>
+  </p>
+</Container>
+
 </Layout>
