@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 import { join, extname } from 'path';
 
 export async function GET(context) {
-  const postsDirectory = join(process.cwd(), 'src/pages/blog/posts');
+  const postsDirectory = join(process.cwd(), 'src/pages/blog');
   const filenames = fs.readdirSync(postsDirectory);
 
   const posts = filenames
