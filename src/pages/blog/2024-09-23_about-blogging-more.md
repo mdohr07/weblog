@@ -5,7 +5,7 @@ description: How I'm planning to blog more often from now on
 publishDate: Monday, September 23 2024
 author: "mdohr07"
 image: "/assets/blog/2024-09/new.png"
-alt: Cartoon Batman cries
+alt: New blogpost text on a colorful background and an illustrated keyboard below
 music: "none"
 musicTitle: ""
 mood: "good"
