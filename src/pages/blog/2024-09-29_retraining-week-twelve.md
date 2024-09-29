@@ -12,8 +12,9 @@ mood: "hungry"
 ---
 So, that was already week twelve. What did we actually do? I remember being completely confused one day and barely finishing the given task. But I also remember that everything suddenly went smoothly the next day.
 
-This week, I wasn’t feeling well. I had constant stomach aches and didn’t have much of an appetite, so I skipped coffee and had to be careful in general. Luckily, I’m feeling better now, and I owe a lot of that to my wife, who took such good care of me and my stomach.
-Object Orientation, Interfaces, Arrays…
+This week, I wasn’t feeling well. I had constant stomach aches and didn’t have much of an appetite, so I skipped coffee and had to be careful in general. Luckily, I’m feeling better now, and I owe a lot of that to my wife, who took such good care of me and my stomach ♥
+
+## Object Orientation, Interfaces, Arrays…
 
 Looking through my code, I can see that we continued to work on inheritance and polymorphism in class and also started using interfaces. We’ve also been using arrays more frequently for practice purposes.
 
