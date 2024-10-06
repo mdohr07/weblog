@@ -8,7 +8,7 @@ image: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExazU4cGp5bGp3M3N2bHAwbz
 alt: A blue alien in a pink track suit having a mug of tea and leans back in relaxation
 music: "https://www.youtube.com/watch?v=IYEP-KbhX20"
 musicTitle: "My Love Forevermore - The Hillbilly Moon Explosion"
-mood: "hungry"
+mood: "good"
 ---
 Ah, I don't feel like writing about the last week of retraining. We wrote a test on October 2nd. We had two hours for it, and then we were allowed to go home and now have a few days off. I hope this test turned out better than last time, but definitely not worse (though I think that's rather unlikely).
 
