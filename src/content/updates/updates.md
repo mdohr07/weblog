@@ -1,6 +1,6 @@
 ## Last updates
 
-<date>Thrusday, October 10 2024</date>
+<date>Thursday, October 10 2024</date>
 <p>Added new links to the Links-page as well as a little label for the new arrivals :-)</p>
 
 <date>Friday, September 27 2024</date>
