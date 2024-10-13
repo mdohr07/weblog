@@ -3,18 +3,16 @@
   "version": "v1.4.0",
   "private": false,
   "scripts": {
-    "dev": "astro dev",
-    "start": "npm run dev",
+    "start": "astro dev",
     "build": "astro build",
     "format": "npx prettier --write ."
   },
   "devDependencies": {
-    "@astrojs/sitemap": "^3.2.0",
-    "astro": "^4.16.1",
+    "@astrojs/sitemap": "^1.0.0",
+    "astro": "^1.1.5",
     "prettier-plugin-astro": "^0.0.12"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@astrojs/rss": "^4.0.8"
+    "@astrojs/rss": "^4.0.7"
   }
 }

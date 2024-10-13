@@ -1,6 +1,0 @@
-{
-    "prettier.tabWidth": 4,
-    "prettier.proseWrap": "preserve",
-    "prettier.bracketSameLine": true,
-    "html.format.unformatted": ""
-}
