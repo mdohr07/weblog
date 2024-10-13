@@ -6,14 +6,11 @@ const seo = {
   title: "mdohr",
   description: "Welcome to my personal website! I'm mdohr07, an aspiring IT specialist and versatile artist. Here I document my progress in web development and programming, share creative projects in painting, drawing and 3D modeling, and write about my passions like drawing, journaling and road cycling. The aesthetic of the site is inspired by retro games and the old web, take a look around!"
   }
-  
 const updates = await Astro.glob("../content/updates/*md");
 ---
+<Layout seo={seo}>
 
-<Layout
-  seo={seo}
->
-  <Container>
+    <Container>
 
 <p lang="en">
     Hello, welcome to my website <img src="/assets/icons/waving.png" alt="pixel graphic of a waving little alien" /><br>
@@ -32,10 +29,9 @@ const updates = await Astro.glob("../content/updates/*md");
 
 <!-- h-card -->
     <div id="hcard-mdohr07" class="hcard">
-
 <!--
             <img
-                class="u-photo"
+                class="u-photo" :
                 src="https://mdohr.space/mblip-full.png"
                 alt="mdohr07"
                 width="200"
@@ -43,80 +39,47 @@ const updates = await Astro.glob("../content/updates/*md");
  
 
             <p>
-                URL: <a class="u-url u-uid" rel="me" href="https://mdohr.space"
-                    >https://mdohr.space</a
-                ><br />
-                Email: <a class="email" href="mailto:mdohr07@gmail.com"
-                    >mdohr07(at)gmail.com</a
-                >
+                URL: <a class="u-url u-uid" rel="me" href="https://mdohr.space">https://mdohr.space</a>
+                <br />
+                Email: <a class="email" href="mailto:mdohr07@gmail.com">mdohr07(at)gmail.com</a>
             </p>
 
             <p>
-                <img
-                    src="/assets/icons/mastodon.png"
-                    alt="mastodon pixel icon"
-                    class="icons"
-                />
-                <a
-                    href="https://indieweb.social/@mdohr07"
-                    target="_blank"
-                    rel="me"
-                    class="u-url">Mastodon</a
-                ><br />
-                <img
-                    src="/assets/icons/github.png"
-                    alt="github pixel icon"
-                    class="icons"
-                />
-                <a
-                    href="https://github.com/mdohr07"
-                    target="_blank"
-                    rel="me"
-                    class="u-url">GitHub</a
-                ><br />
-                <img
-                    src="/assets/icons/artstation.png"
-                    alt="artstation pixel icon"
-                    class="icons"
-                />
-                <a
-                    href="https://www.artstation.com/mdohr07"
-                    target="_blank"
-                    rel="me"
-                    class="u-url">Artstation</a
-                ><br />
-                <img
-                    src="/assets/icons/sketchfab.png"
-                    alt="sketchfab pixel icon"
-                    class="icons"
-                />
-                <a
-                    href="https://sketchfab.com/mdohr07"
-                    target="_blank"
-                    rel="me"
-                    class="u-url">Sketchfab</a
-                >
+                <img src="/assets/icons/mastodon.png" alt="mastodon pixel icon" class="icons" />
+                <a href="https://indieweb.social/@mdohr07" target="_blank" rel="me" class="u-url">Mastodon</a>
+                <br />
+
+                <img src="/assets/icons/github.png" alt="github pixel icon" class="icons" />
+                <a href="https://github.com/mdohr07" target="_blank" rel="me" class="u-url">GitHub</a>
+                <br />
+
+                <img src="/assets/icons/artstation.png" alt="artstation pixel icon" class="icons" />
+                <a href="https://www.artstation.com/mdohr07" target="_blank" rel="me" class="u-url">Artstation</a>
+                <br />
+
+                <img src="/assets/icons/sketchfab.png" alt="sketchfab pixel icon" class="icons" />
+                <a href="https://sketchfab.com/mdohr07" target="_blank" rel="me" class="u-url">Sketchfab</a>
+
             </p>
-
-
-            <link
-                rel="authorization_endpoint"
-                href="https://indieauth.com/auth"
-            />
-</div>
+            
+            
+            <link rel="authorization_endpoint" href="https://indieauth.com/auth"/>
+        </div>
 
 <div style="text-align: right;">
 	  <a href="https://tamanotchi.world/14487c"><img src="https://tamanotchi.world/i/14487" alt="It's tamaNOTchi! Click to feed!"></a>
 </div>
+
  <section class="updates" lang="en">
-        {
-            updates.map(({ Content }) => (
-                <article>
-                    <Content />
-                </article>
-            ))
-        }
-    </section>
+     {
+     updates.map(({ Content }) => (
+     <article>
+         <Content />
+     </article>
+     ))
+     }
+ </section>
+
 	<img src="/assets/graphics/getacomp.jpg" alt="get a computer badge">
     <img src="/assets/graphics/best_viewed_with_eyes.gif" alt="best viewed with eyes badge">
     <img src="/assets/graphics/geocities_area_51.gif" alt="geocities area 51 badge">
