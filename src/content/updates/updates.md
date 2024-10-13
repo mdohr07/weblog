@@ -1,5 +1,8 @@
 ## Last updates
 
+<date>Sunday, October 13 2024</date>
+<p>Changed the intro text to something more creative and spaces and changed the website background color</p>
+
 <date>Thursday, October 10 2024</date>
 <p>Added new links to the Links-page as well as a little label for the new arrivals :-)</p>
 
