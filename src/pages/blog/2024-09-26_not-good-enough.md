@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/Post.astro
 title: The Feeling of not being good enough
-description: 
+description: About feeling not good enough (programming)
 publishDate: Thursday, September 26 2024
 author: "mdohr07"
 image: "/assets/blog/2024-09/OK.png"

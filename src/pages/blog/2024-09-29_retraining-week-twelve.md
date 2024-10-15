@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/Post.astro
 title: Retraining week twelve
-description: 
+description: I remember being completely confused one day and barely finishing the given task. But I also remember that everything suddenly went smoothly the next day.
 publishDate: Sunday, September 29 2024
 author: "mdohr07"
 image: "/assets/blog/2024-09/stressReduction.jpg"

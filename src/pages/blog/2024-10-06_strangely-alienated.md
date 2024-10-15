@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/Post.astro
 title: Strangely alienated
-description: 
+description: Somehow I wanted to draw, but somehow I also didn't know what to do with myself and that is what this post is about
 publishDate: Sunday, October 6 2024
 author: "mdohr07"
 image: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExazU4cGp5bGp3M3N2bHAwbzZ5aDZndTAweG8zMmt1MjZ6MXAzY2xkZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BqEn7Le7JzNvPMev4c/giphy.webp"
