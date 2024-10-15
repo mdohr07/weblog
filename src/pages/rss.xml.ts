@@ -1,3 +1,4 @@
+/*
 import rss, { pagesGlobToRssItems } from '@astrojs/rss';
 
 export async function GET(context) {
@@ -10,4 +11,4 @@ export async function GET(context) {
       import.meta.glob('./blog/*.{md,mdx}')
     ),
   });
-}
+}*/
