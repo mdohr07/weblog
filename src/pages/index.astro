@@ -8,7 +8,7 @@ const seo = {
     "Welcome to my personal website! I'm mdohr07, an aspiring IT specialist and versatile artist. Here I document my progress in web development and programming, share creative projects in painting, drawing and 3D modeling, and write about my passions like drawing, journaling and road cycling. The aesthetic of the site is inspired by retro games and the old web, take a look around!",
 };
 
-const updates = await Astro.glob("../content/updates/*md");
+// const updates = await Astro.glob("/pages/updates.md");
 ---
 
 <Layout seo={seo}>
@@ -124,7 +124,7 @@ const updates = await Astro.glob("../content/updates/*md");
         /></a
       >
     </div>
-    <section class='updates' lang='en'>
+    <!-- <section class='updates' lang='en'>
       {
         updates.map(({ Content }) => (
           <article>
@@ -132,7 +132,7 @@ const updates = await Astro.glob("../content/updates/*md");
           </article>
         ))
       }
-    </section>
+    </section> -->
     <img src='/assets/graphics/getacomp.jpg' alt='get a computer badge' />
     <img
       src='/assets/graphics/best_viewed_with_eyes.gif'
